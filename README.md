@@ -32,3 +32,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+install next
+npm i moment moment-range --save
+npm i mongoose-timezone
+npm i mdbreact --save
+
+
+actions
+bookingactions
+
+reduceurs
+booking constants
+
+
+bookingControllers 
+chec on the issue with time zone/ UTC
+
+
+
+
+
+hello.js
+in the api section
+/pages/api/hello.js
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+export default function handler(req, res) {
+  res.status(200).json({ name: "Mukhebi Emmanuel" });
+}
